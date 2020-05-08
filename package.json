@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Nickchen2016/security-load#readme",
   "dependencies": {
+    "ejs": "^3.1.2",
     "express": "^4.17.1"
   }
 }
