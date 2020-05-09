@@ -19,6 +19,11 @@ app.get('/', (req, res)=>{
 })
 //hello!
 
+//nonono!
 app.listen(port, ()=>{
+<<<<<<< HEAD
     console.log(`app is listening on PORT ${port}`)
+=======
+    console.log(`app is running on the port ${port}`)
+>>>>>>> sub_branch
 })
