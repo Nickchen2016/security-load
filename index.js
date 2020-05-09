@@ -12,12 +12,13 @@ app.get('/', (req, res)=>{
             res.status(500).end();
         }else{
             res.render('app.ejs', {
-                items: JSON.parse(data)
+                item: JSON.parse(data)
             })
         }
     })
 })
 
+//nonono!
 app.listen(port, ()=>{
-    console.log(`app is listening on port ${port}`)
+    console.log(`app is running on the port ${port}`)
 })

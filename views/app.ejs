@@ -6,6 +6,15 @@
     <title>Security Load</title>
 </head>
 <body>
-    <div>Hello!</div>
+    <div>
+        <% item.Employees.forEach(person=>{ %>
+            <div style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr">
+                <div><%= person.firstName %></div>
+                <div><%= person.lastName %></div>
+                <div><%= person.jobTitle %></div>
+                <div><%= person.region %></div>
+            </div>
+        <% }) %>
+    </div>
 </body>
-</html>
+</html> 
