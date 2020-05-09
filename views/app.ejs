@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Load</title>
+</head>
+<body>
+    <div>
+        <% item.Employees.forEach(person=>{ %>
+            <div style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr">
+                <div><%= person.firstName %></div>
+                <div><%= person.lastName %></div>
+                <div><%= person.jobTitle %></div>
+                <div><%= person.region %></div>
+            </div>
+        <% }) %>
+    </div>
+</body>
+</html> 
