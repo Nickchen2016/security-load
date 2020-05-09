@@ -19,5 +19,9 @@ app.get('/', (req, res)=>{
 })
 
 app.listen(port, ()=>{
+<<<<<<< HEAD
     console.log('connected')
+=======
+    console.log(`Server is listening on PORT ${port}`)
+>>>>>>> sub_branch
 })
