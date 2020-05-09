@@ -12,7 +12,7 @@ app.get('/', (req, res)=>{
             res.status(500).end();
         }else{
             res.render('app.ejs', {
-                items: JSON.parse(data)
+                item: JSON.parse(data)
             })
         }
     })
